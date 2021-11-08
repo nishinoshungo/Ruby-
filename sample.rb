@@ -1,7 +1,5 @@
-puts 1 + 2
+def add(a, b)
+  a + b
+end
 
-a = "hello, world!"
-puts a
-
-b = "こんにちは"
-puts b
+puts add(1, 2)
