@@ -1,13 +1,5 @@
-def greeting(country)
-  country or return 'countryを入力してください'
+n = 9
+message =
+  n > 10 ? '10より大きい' : '10以下'
 
-  if country == 'japan'
-    'こんにちは'
-  else
-    'hello'
-  end
-end
-
-puts greeting('japan')
-puts greeting('usa')
-puts greeting(false)
+puts message
