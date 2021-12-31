@@ -1,5 +1,13 @@
-def add(a, b)
-  a + b
+def greeting(country)
+  country or return 'countryを入力してください'
+
+  if country == 'japan'
+    'こんにちは'
+  else
+    'hello'
+  end
 end
 
-puts add(1, 2)
+puts greeting('japan')
+puts greeting('usa')
+puts greeting(false)
