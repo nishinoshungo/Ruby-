@@ -1,1 +1,4 @@
-p ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'].inject('sun') {|result, s| result + s}
+numbers = [1, 2, 3]
+foo = [8,9,10]
+foo.each {|n| numbers << n}
+p numbers
